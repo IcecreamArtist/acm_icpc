@@ -76,27 +76,27 @@ include CMakeFiles/acm_icpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/acm_icpc.dir/flags.make
 
-CMakeFiles/acm_icpc.dir/main.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
-CMakeFiles/acm_icpc.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/main.cpp.obj"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\main.cpp.obj -c C:\Users\Artis\CLionProjects\acm-icpc\main.cpp
+CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
+CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj: ../practise/graph/hdu1530.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\practise\graph\hdu1530.cpp.obj -c C:\Users\Artis\CLionProjects\acm-icpc\practise\graph\hdu1530.cpp
 
-CMakeFiles/acm_icpc.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/main.cpp.i"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artis\CLionProjects\acm-icpc\main.cpp > CMakeFiles\acm_icpc.dir\main.cpp.i
+CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.i"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artis\CLionProjects\acm-icpc\practise\graph\hdu1530.cpp > CMakeFiles\acm_icpc.dir\practise\graph\hdu1530.cpp.i
 
-CMakeFiles/acm_icpc.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/main.cpp.s"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artis\CLionProjects\acm-icpc\main.cpp -o CMakeFiles\acm_icpc.dir\main.cpp.s
+CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.s"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artis\CLionProjects\acm-icpc\practise\graph\hdu1530.cpp -o CMakeFiles\acm_icpc.dir\practise\graph\hdu1530.cpp.s
 
 # Object files for target acm_icpc
 acm_icpc_OBJECTS = \
-"CMakeFiles/acm_icpc.dir/main.cpp.obj"
+"CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj"
 
 # External object files for target acm_icpc
 acm_icpc_EXTERNAL_OBJECTS =
 
-acm_icpc.exe: CMakeFiles/acm_icpc.dir/main.cpp.obj
+acm_icpc.exe: CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/build.make
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/linklibs.rsp
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/objects1.rsp

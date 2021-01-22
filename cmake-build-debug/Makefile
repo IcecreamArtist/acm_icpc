@@ -142,32 +142,32 @@ acm_icpc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/build
 .PHONY : acm_icpc/fast
 
-main.obj: main.cpp.obj
+practise/graph/hdu1530.obj: practise/graph/hdu1530.cpp.obj
 
-.PHONY : main.obj
+.PHONY : practise/graph/hdu1530.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+practise/graph/hdu1530.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj
+.PHONY : practise/graph/hdu1530.cpp.obj
 
-main.i: main.cpp.i
+practise/graph/hdu1530.i: practise/graph/hdu1530.cpp.i
 
-.PHONY : main.i
+.PHONY : practise/graph/hdu1530.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/main.cpp.i
-.PHONY : main.cpp.i
+practise/graph/hdu1530.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.i
+.PHONY : practise/graph/hdu1530.cpp.i
 
-main.s: main.cpp.s
+practise/graph/hdu1530.s: practise/graph/hdu1530.cpp.s
 
-.PHONY : main.s
+.PHONY : practise/graph/hdu1530.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/main.cpp.s
-.PHONY : main.cpp.s
+practise/graph/hdu1530.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.s
+.PHONY : practise/graph/hdu1530.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... acm_icpc
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... practise/graph/hdu1530.obj
+	@echo ... practise/graph/hdu1530.i
+	@echo ... practise/graph/hdu1530.s
 .PHONY : help
 
 

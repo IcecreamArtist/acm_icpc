@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/main.cpp">
+		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/practise/graph/hdu1530.cpp">
 			<Option target="acm_icpc"/>
 		</Unit>
 		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/CMakeLists.txt">

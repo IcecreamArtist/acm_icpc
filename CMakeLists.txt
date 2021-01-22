@@ -3,4 +3,4 @@ project(acm_icpc)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(acm_icpc main.cpp)
+add_executable(acm_icpc practise/graph/hdu1530.cpp)

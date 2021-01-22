@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Artis/CLionProjects/acm-icpc/main.cpp" "C:/Users/Artis/CLionProjects/acm-icpc/cmake-build-debug/CMakeFiles/acm_icpc.dir/main.cpp.obj"
+  "C:/Users/Artis/CLionProjects/acm-icpc/practise/graph/hdu1530.cpp" "C:/Users/Artis/CLionProjects/acm-icpc/cmake-build-debug/CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
