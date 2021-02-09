@@ -142,32 +142,32 @@ acm_icpc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/build
 .PHONY : acm_icpc/fast
 
-practise/graph/hdu1530.obj: practise/graph/hdu1530.cpp.obj
+2020_hdu_multi/day3/D.obj: 2020_hdu_multi/day3/D.cpp.obj
 
-.PHONY : practise/graph/hdu1530.obj
+.PHONY : 2020_hdu_multi/day3/D.obj
 
 # target to build an object file
-practise/graph/hdu1530.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj
-.PHONY : practise/graph/hdu1530.cpp.obj
+2020_hdu_multi/day3/D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj
+.PHONY : 2020_hdu_multi/day3/D.cpp.obj
 
-practise/graph/hdu1530.i: practise/graph/hdu1530.cpp.i
+2020_hdu_multi/day3/D.i: 2020_hdu_multi/day3/D.cpp.i
 
-.PHONY : practise/graph/hdu1530.i
+.PHONY : 2020_hdu_multi/day3/D.i
 
 # target to preprocess a source file
-practise/graph/hdu1530.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.i
-.PHONY : practise/graph/hdu1530.cpp.i
+2020_hdu_multi/day3/D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.i
+.PHONY : 2020_hdu_multi/day3/D.cpp.i
 
-practise/graph/hdu1530.s: practise/graph/hdu1530.cpp.s
+2020_hdu_multi/day3/D.s: 2020_hdu_multi/day3/D.cpp.s
 
-.PHONY : practise/graph/hdu1530.s
+.PHONY : 2020_hdu_multi/day3/D.s
 
 # target to generate assembly for a file
-practise/graph/hdu1530.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.s
-.PHONY : practise/graph/hdu1530.cpp.s
+2020_hdu_multi/day3/D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.s
+.PHONY : 2020_hdu_multi/day3/D.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... acm_icpc
-	@echo ... practise/graph/hdu1530.obj
-	@echo ... practise/graph/hdu1530.i
-	@echo ... practise/graph/hdu1530.s
+	@echo ... 2020_hdu_multi/day3/D.obj
+	@echo ... 2020_hdu_multi/day3/D.i
+	@echo ... 2020_hdu_multi/day3/D.s
 .PHONY : help
 
 

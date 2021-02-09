@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/acm_icpc.dir/practise/graph/hdu1530.cpp.obj"
+  "CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj"
   "acm_icpc.exe"
   "acm_icpc.exe.manifest"
   "acm_icpc.pdb"
