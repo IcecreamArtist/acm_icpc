@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/2020_hdu_multi/day3/D.cpp">
+		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/practise/codeforces/1487A.cpp">
 			<Option target="acm_icpc"/>
 		</Unit>
 		<Unit filename="C:/Users/Artis/CLionProjects/acm-icpc/CMakeLists.txt">

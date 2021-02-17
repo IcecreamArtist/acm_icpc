@@ -142,32 +142,32 @@ acm_icpc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/build
 .PHONY : acm_icpc/fast
 
-2020_hdu_multi/day3/D.obj: 2020_hdu_multi/day3/D.cpp.obj
+practise/codeforces/1487A.obj: practise/codeforces/1487A.cpp.obj
 
-.PHONY : 2020_hdu_multi/day3/D.obj
+.PHONY : practise/codeforces/1487A.obj
 
 # target to build an object file
-2020_hdu_multi/day3/D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj
-.PHONY : 2020_hdu_multi/day3/D.cpp.obj
+practise/codeforces/1487A.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj
+.PHONY : practise/codeforces/1487A.cpp.obj
 
-2020_hdu_multi/day3/D.i: 2020_hdu_multi/day3/D.cpp.i
+practise/codeforces/1487A.i: practise/codeforces/1487A.cpp.i
 
-.PHONY : 2020_hdu_multi/day3/D.i
+.PHONY : practise/codeforces/1487A.i
 
 # target to preprocess a source file
-2020_hdu_multi/day3/D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.i
-.PHONY : 2020_hdu_multi/day3/D.cpp.i
+practise/codeforces/1487A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i
+.PHONY : practise/codeforces/1487A.cpp.i
 
-2020_hdu_multi/day3/D.s: 2020_hdu_multi/day3/D.cpp.s
+practise/codeforces/1487A.s: practise/codeforces/1487A.cpp.s
 
-.PHONY : 2020_hdu_multi/day3/D.s
+.PHONY : practise/codeforces/1487A.s
 
 # target to generate assembly for a file
-2020_hdu_multi/day3/D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.s
-.PHONY : 2020_hdu_multi/day3/D.cpp.s
+practise/codeforces/1487A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s
+.PHONY : practise/codeforces/1487A.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... acm_icpc
-	@echo ... 2020_hdu_multi/day3/D.obj
-	@echo ... 2020_hdu_multi/day3/D.i
-	@echo ... 2020_hdu_multi/day3/D.s
+	@echo ... practise/codeforces/1487A.obj
+	@echo ... practise/codeforces/1487A.i
+	@echo ... practise/codeforces/1487A.s
 .PHONY : help
 
 

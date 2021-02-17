@@ -1,29 +1,27 @@
-#include<iostream>
-#include<vector>
-#include<queue>
-#include<string.h>
-#include<cstdio>
+#include<bits/stdc++.h>
 using namespace std;
-const int maxn = 1e3+4;
 const int inf = 0x7f7f7f7f;
+#define in(x) x
+#define out(x) (x+n*n)
+// 拆点 + 最大流
+const int maxn = 604;
+vector<int>G[maxn*maxn<<1];
+int mp[maxn][maxn];
+int inq[maxn*maxn<<1];
+int d[maxn*maxn<<1];
+int p[maxn*maxn<<1];
+int a[maxn*maxn<<1];
 struct Edge {
     int from,to,cap,flow,cost;
-    Edge(int u,int v,int c,int f,int w):from(u),to(v),cap(c),flow(f),cost(w){}
 };
-
-vector<int> G[maxn];
 
 struct MCMF {
     int n,m;
     vector<Edge> edges;
-    int inq[maxn];
-    int d[maxn];
-    int p[maxn];
-    int a[maxn];
 
     void init(int n){
         this->n = n;
-        for(int i=1;i<=n;++i) G[i].clear();
+        for(int i=0;i<n;++i) G[i].clear();
         edges.clear();
     }
 
@@ -36,7 +34,7 @@ struct MCMF {
     }
 
     bool BellmanFord(int s,int t,int& flow,long long& cost) {
-        for(int i=1;i<=n;++i) d[i]=inf;
+        for(int i=0;i<n;++i) d[i]=inf;
         memset(inq,0,sizeof(inq));
         d[s] = 0;inq[s] = 1;p[s] = 0;a[s] = inf;
 
@@ -72,21 +70,42 @@ struct MCMF {
         return flow;
     }
 };
+/*
+ * 2
+10 3
+5 10
+3
+10 3 3
+2 5 3
+6 7 10
+5
+1 2 3 4 5
+2 3 4 5 6
+3 4 5 6 7
+4 5 6 7 8
+5 6 7 8 9
 
+ 28
+46
+80
+ */
 int main(){
-    int n,m;
-    scanf("%d%d",&n,&m);
+    int n;
     MCMF cur;
-    cur.init(n);
-
-    for (int i = 1; i <= m; ++i) {
-        int u, v, c;
-        scanf("%d%d%d", &u, &v, &c);
-        cur.AddEdge(u, v, 1, c);
-        cur.AddEdge(v, u, 1, c);
+    while(~scanf("%d",&n)){
+        cur.init(2*n*n);
+        for(int i=0;i<n;++i){
+            for(int j=0;j<n;++j){
+                scanf("%d",&mp[i][j]);
+                //  cout<<out(n*(i-1)+j)<<" "<<in(n*i+j)<<endl;
+                if(i!=0) cur.AddEdge(out(n*(i-1)+j),in(n*i+j),inf,0);
+                if(j!=0) cur.AddEdge(out(n*i+j-1),in(n*i+j),1,0);
+                cur.AddEdge(in(n*i+j),out(n*i+j),1,-mp[i][j]);
+            }
+        }
+        long long cost;
+        int s=out(0),t=in(n*n-1);
+        cur.MincostMaxflow(s,t,cost);
+        cout<<-cost+mp[0][0]+mp[n-1][n-1]<<endl;
     }
-
-    long long cost;
-    cur.MincostMaxflow(1, n, cost);
-    cout << cost << endl;
 }

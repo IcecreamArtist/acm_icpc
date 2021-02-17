@@ -76,27 +76,27 @@ include CMakeFiles/acm_icpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/acm_icpc.dir/flags.make
 
-CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
-CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj: ../2020_hdu_multi/day3/D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\2020_hdu_multi\day3\D.cpp.obj -c C:\Users\Artis\CLionProjects\acm-icpc\2020_hdu_multi\day3\D.cpp
+CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
+CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj: ../practise/codeforces/1487A.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.obj -c C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp
 
-CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.i"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artis\CLionProjects\acm-icpc\2020_hdu_multi\day3\D.cpp > CMakeFiles\acm_icpc.dir\2020_hdu_multi\day3\D.cpp.i
+CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp > CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.i
 
-CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.s"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artis\CLionProjects\acm-icpc\2020_hdu_multi\day3\D.cpp -o CMakeFiles\acm_icpc.dir\2020_hdu_multi\day3\D.cpp.s
+CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s"
+	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp -o CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.s
 
 # Object files for target acm_icpc
 acm_icpc_OBJECTS = \
-"CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj"
+"CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
 
 # External object files for target acm_icpc
 acm_icpc_EXTERNAL_OBJECTS =
 
-acm_icpc.exe: CMakeFiles/acm_icpc.dir/2020_hdu_multi/day3/D.cpp.obj
+acm_icpc.exe: CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/build.make
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/linklibs.rsp
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/objects1.rsp
