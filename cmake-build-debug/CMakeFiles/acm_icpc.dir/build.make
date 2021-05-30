@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Artis\CLionProjects\acm-icpc
+CMAKE_SOURCE_DIR = C:\Users\acm\CLionProjects\acm_icpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/acm_icpc.dir/depend.make
@@ -76,32 +76,32 @@ include CMakeFiles/acm_icpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/acm_icpc.dir/flags.make
 
-CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
-CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj: ../practise/codeforces/1487A.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.obj -c C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp
+CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj: CMakeFiles/acm_icpc.dir/flags.make
+CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj: ../2021lanzhou_flyhorse/d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acm_icpc.dir\2021lanzhou_flyhorse\d.cpp.obj -c C:\Users\acm\CLionProjects\acm_icpc\2021lanzhou_flyhorse\d.cpp
 
-CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp > CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.i
+CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acm\CLionProjects\acm_icpc\2021lanzhou_flyhorse\d.cpp > CMakeFiles\acm_icpc.dir\2021lanzhou_flyhorse\d.cpp.i
 
-CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s"
-	C:\Users\Artis\Documents\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artis\CLionProjects\acm-icpc\practise\codeforces\1487A.cpp -o CMakeFiles\acm_icpc.dir\practise\codeforces\1487A.cpp.s
+CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acm\CLionProjects\acm_icpc\2021lanzhou_flyhorse\d.cpp -o CMakeFiles\acm_icpc.dir\2021lanzhou_flyhorse\d.cpp.s
 
 # Object files for target acm_icpc
 acm_icpc_OBJECTS = \
-"CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
+"CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj"
 
 # External object files for target acm_icpc
 acm_icpc_EXTERNAL_OBJECTS =
 
-acm_icpc.exe: CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj
+acm_icpc.exe: CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/build.make
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/linklibs.rsp
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/objects1.rsp
 acm_icpc.exe: CMakeFiles/acm_icpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable acm_icpc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable acm_icpc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\acm_icpc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/acm_icpc.dir/clean:
 .PHONY : CMakeFiles/acm_icpc.dir/clean
 
 CMakeFiles/acm_icpc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Artis\CLionProjects\acm-icpc C:\Users\Artis\CLionProjects\acm-icpc C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles\acm_icpc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acm\CLionProjects\acm_icpc C:\Users\acm\CLionProjects\acm_icpc C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles\acm_icpc.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/acm_icpc.dir/depend
 

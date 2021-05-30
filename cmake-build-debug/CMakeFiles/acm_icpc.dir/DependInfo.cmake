@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Artis/CLionProjects/acm-icpc/practise/codeforces/1487A.cpp" "C:/Users/Artis/CLionProjects/acm-icpc/cmake-build-debug/CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
+  "C:/Users/acm/CLionProjects/acm_icpc/2021lanzhou_flyhorse/d.cpp" "C:/Users/acm/CLionProjects/acm_icpc/cmake-build-debug/CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

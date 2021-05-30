@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Artis\CLionProjects\acm-icpc
+CMAKE_SOURCE_DIR = C:\Users\acm\CLionProjects\acm_icpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Artis\CLionProjects\acm-icpc\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acm\CLionProjects\acm_icpc\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,32 @@ acm_icpc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/build
 .PHONY : acm_icpc/fast
 
-practise/codeforces/1487A.obj: practise/codeforces/1487A.cpp.obj
+2021lanzhou_flyhorse/d.obj: 2021lanzhou_flyhorse/d.cpp.obj
 
-.PHONY : practise/codeforces/1487A.obj
+.PHONY : 2021lanzhou_flyhorse/d.obj
 
 # target to build an object file
-practise/codeforces/1487A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj
-.PHONY : practise/codeforces/1487A.cpp.obj
+2021lanzhou_flyhorse/d.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj
+.PHONY : 2021lanzhou_flyhorse/d.cpp.obj
 
-practise/codeforces/1487A.i: practise/codeforces/1487A.cpp.i
+2021lanzhou_flyhorse/d.i: 2021lanzhou_flyhorse/d.cpp.i
 
-.PHONY : practise/codeforces/1487A.i
+.PHONY : 2021lanzhou_flyhorse/d.i
 
 # target to preprocess a source file
-practise/codeforces/1487A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.i
-.PHONY : practise/codeforces/1487A.cpp.i
+2021lanzhou_flyhorse/d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.i
+.PHONY : 2021lanzhou_flyhorse/d.cpp.i
 
-practise/codeforces/1487A.s: practise/codeforces/1487A.cpp.s
+2021lanzhou_flyhorse/d.s: 2021lanzhou_flyhorse/d.cpp.s
 
-.PHONY : practise/codeforces/1487A.s
+.PHONY : 2021lanzhou_flyhorse/d.s
 
 # target to generate assembly for a file
-practise/codeforces/1487A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.s
-.PHONY : practise/codeforces/1487A.cpp.s
+2021lanzhou_flyhorse/d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\acm_icpc.dir\build.make CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.s
+.PHONY : 2021lanzhou_flyhorse/d.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... acm_icpc
-	@echo ... practise/codeforces/1487A.obj
-	@echo ... practise/codeforces/1487A.i
-	@echo ... practise/codeforces/1487A.s
+	@echo ... 2021lanzhou_flyhorse/d.obj
+	@echo ... 2021lanzhou_flyhorse/d.i
+	@echo ... 2021lanzhou_flyhorse/d.s
 .PHONY : help
 
 

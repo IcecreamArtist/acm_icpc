@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/acm_icpc.dir/practise/codeforces/1487A.cpp.obj"
+  "CMakeFiles/acm_icpc.dir/2021lanzhou_flyhorse/d.cpp.obj"
   "acm_icpc.exe"
   "acm_icpc.exe.manifest"
   "acm_icpc.pdb"
